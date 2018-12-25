@@ -11,12 +11,28 @@
 			border-collapse:collapse; 
 		}
 
+		#headerTitle{
+			color: red;
+		}
+
+		.blueColor{
+			color:blue;
+		}
+
+		p.blueColor{
+			font-weight: bold;
+		}
+
+		.titlecenter{
+			text-align: center;
+		}
+
 	</style>
 </head>
 
 <body>
 	<header>
-		<h1>my zoo</h1>
+		<h1 id="headerTitle">My ZOO</h1>
 	</header>
 
 	<nav>
@@ -42,8 +58,8 @@
 	</section>
 
 	<article>
-		<h3>ZOO description1</h3>
-		<p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
+		<h3 class="blueColor titlecenter">ZOO description1</h3>
+		<p class="blueColor">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
 		<p>test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1</p>
 	</article>
 	<br>
@@ -53,14 +69,14 @@
 	<article>
 		<h3>ZOO description2</h3>
 		<p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
-		<p>test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1</p>
+		<p class="blueColor">test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1</p>
 	</article>
 	<br>
 	<hr>
 	<br>
 
 	<section>
-		<table style="width:100%">
+		<table style="width:100%; text-align: center;">
 			<caption>My animals</caption>
 			<tr>
 				<th>Animal</th>
